@@ -50,6 +50,7 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
+  django
 )
 
 source $ZSH/oh-my-zsh.sh
