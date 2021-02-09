@@ -3,6 +3,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Load colors
 autoload -U colors && colors
 
+# Load completion system
+autoload -Uz compinit && compinit
+
 # Path to your oh-my-zsh installation.
 export ZSH="/home/ap/.oh-my-zsh"
 
