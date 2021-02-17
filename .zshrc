@@ -12,13 +12,6 @@ HISTSIZE=25000
 SAVEHIST=25000
 HISTFILE=~/.cache/zsh/history
 
-# Basic auto/tab complete
-autoload -U compinit
-zstyle ':completion:*' menu select
-zmodload zsh/complist
-compinit
-_comp_options+=(globdots)
-
 plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting
