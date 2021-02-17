@@ -1,14 +1,21 @@
-alias grep='grep --color=auto'
-alias ls='ls --color=auto'
-alias l='ls --color=auto'
-alias ll='ls -la'
-alias lt='ls --human-readable --size -1 -S --classify'
-alias ve='python3 -m venv ./venv'
-alias va='source ./venv/bin/activate'
+alias ls='ls --color=auto --group-directories-first'
+alias l='ls --color=auto --group-directories-first'
+alias ll='ls -la --group-directories-first'
+alias lt='ls --human-readable --size -1 -S --classify --group-directories-first'
+
+alias df='df -H'
 alias du='du -hc'
-alias kfix='kwin_x11 --replace & exit' # Restarts kwin
-alias pfix='kquitapp5 plasmashell && kstart5 plasmashell & exit' # Restarts plasmashell
-alias djrs='python3 manage.py runserver'
+alias grep='grep --color=auto'
 alias mkdir='mkdir -pv'
 alias cat='highlight --out-format=ansi' # Cat with syntax highlighting
 
+alias ve='python3 -m venv ./venv'
+alias va='source ./venv/bin/activate'
+
+alias kfix='kwin_x11 --replace & exit'
+alias pfix='kquitapp5 plasmashell && kstart5 plasmashell & exit'
+
+alias sdn='sudo shutdown -h now'
+
+alias djrs='python3 manage.py runserver'
+alias djt='python3 manage.py test'
