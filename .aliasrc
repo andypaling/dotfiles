@@ -19,3 +19,5 @@ alias sdn='sudo shutdown -h now'
 
 alias djrs='python3 manage.py runserver'
 alias djt='python3 manage.py test'
+
+alias asm='nasm -f elf64 -g -o a.o a.asm & ld -g -o a a.o'
