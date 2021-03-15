@@ -5,6 +5,7 @@ autoload -U colors && colors
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/ap/.oh-my-zsh"
+export ZDOTDIR="~/.oh-my-zsh"
 
 ZSH_THEME="gozilla"
 
@@ -35,4 +36,3 @@ if [ -e $HOME/.aliasrc ]; then
     source $HOME/.aliasrc
 fi
 
-ufetch
