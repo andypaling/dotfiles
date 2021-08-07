@@ -17,6 +17,8 @@ alias pfix='kquitapp5 plasmashell && kstart5 plasmashell & exit'
 
 alias sdn='sudo shutdown -h now'
 
+alias pyc='setsid pycharm .'
+
 alias djrs='python3 manage.py runserver'
 alias djt='python3 manage.py test'
 
